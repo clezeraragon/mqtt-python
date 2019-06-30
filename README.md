@@ -28,7 +28,7 @@
 
 ``` python -v ```
 
-#### Na proxima etapa do projeto vou integra-lo com o django para realizar as presistências e iniciar as conexões
+#### Na proxima etapa do projeto vou integra-lo com o django para realizar as presistências e iniciar as conexões multiplas
 
 ### Documentação para referência:
 
