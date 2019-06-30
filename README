@@ -12,9 +12,7 @@ command python subscribe.py
 
 Para efeito de otimização e ambientização segue algumas etapas do projeto:
 
-Precisamos de um corretor que esteja sempre disponível. Apenas um para toda a rede.
- Pode ser um PC, um Raspberry Pi ou até mesmo um EV3.
- Se é um sistema linux baseado no Debian nós podemos usar mosquitto.
+Precisamos instalar o mosquitto:
 
  sudo apt-get install mosquitto
 
