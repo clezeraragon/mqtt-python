@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ee22362-f5b6-4361-bc88-4d54dc7fd6f2" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/send.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/publish.py" afterPath="$PROJECT_DIR$/publish.py" />
+      <change beforePath="$PROJECT_DIR$/subscribe.py" afterPath="$PROJECT_DIR$/subscribe.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,35 +14,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="195">
-                <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/publish.py" />
-        <option value="$PROJECT_DIR$/subscribe.py" />
-        <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/README.md" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -59,12 +41,11 @@
       <path value="" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="125" />
-    <option name="y" value="34" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1366" />
-    <option name="height" value="680" />
+    <option name="height" value="768" />
   </component>
+  <component name="ProjectId" id="1VnOrRrmrKLJx9bja1HFUVHHUV7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -81,7 +62,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -94,11 +74,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -117,6 +104,86 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="publish" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mqtt-python3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/publish.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="send" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mqtt-python3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/send.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="subscribe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mqtt-python3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/subscribe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -130,15 +197,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561931018281</updated>
-      <workItem from="1561931019408" duration="5148000" />
+      <workItem from="1561931019408" duration="5859000" />
+      <workItem from="1567350264745" duration="211000" />
+      <workItem from="1567361346040" duration="536000" />
+      <workItem from="1567384716285" duration="37000" />
+      <workItem from="1577885593845" duration="11339000" />
+      <workItem from="1577922128388" duration="2703000" />
+      <workItem from="1577924856744" duration="73000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5148000" />
+    <option name="totallyTimeSpent" value="73000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="125" y="34" width="1366" height="680" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -148,7 +221,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -166,43 +239,85 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="434" y="191" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577919898969">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state x="434" y="191" key="#com.intellij.fileTypes.FileTypeChooser/-1366.23.1366.684/0.23.1366.745@0.23.1366.745" timestamp="1577919898969" />
+    <state x="413" y="23" key="#publish" timestamp="1577917742938">
+      <screen x="0" y="23" width="1366" height="689" />
+    </state>
+    <state x="413" y="23" key="#publish/-1366.23.1366.745/0.23.1366.678@0.23.1366.678" timestamp="1577885650758" />
+    <state x="413" y="23" key="#publish/-1366.23.1366.745/0.23.1366.689@0.23.1366.689" timestamp="1577917742938" />
+    <state x="413" y="23" width="559" height="745" key="#send" timestamp="1577920057272">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state x="413" y="23" width="559" height="745" key="#send/-1366.23.1366.684/0.23.1366.745@0.23.1366.745" timestamp="1577920057272" />
+    <state x="413" y="23" key="#subscribe" timestamp="1577897823036">
+      <screen x="0" y="23" width="1366" height="680" />
+    </state>
+    <state x="413" y="23" key="#subscribe/-1366.23.1366.745/0.23.1366.680@0.23.1366.680" timestamp="1577897823036" />
+    <state width="652" height="153" key="GridCell.Tab.0.bottom" timestamp="1577924636838">
+      <screen x="0" y="23" width="1366" height="682" />
+    </state>
+    <state width="652" height="153" key="GridCell.Tab.0.bottom/-1366.23.1366.684/0.23.1366.745@0.23.1366.745" timestamp="1577921931714" />
+    <state width="1304" height="243" key="GridCell.Tab.0.bottom/-1366.23.1366.745/0.23.1366.680@0.23.1366.680" timestamp="1577898909710" />
+    <state width="652" height="153" key="GridCell.Tab.0.bottom/-1366.23.1366.745/0.23.1366.682@0.23.1366.682" timestamp="1577924636838" />
+    <state width="652" height="153" key="GridCell.Tab.0.bottom/-1366.23.1366.745/0.23.1366.689@0.23.1366.689" timestamp="1577918612694" />
+    <state width="652" height="153" key="GridCell.Tab.0.center" timestamp="1577924636837">
+      <screen x="0" y="23" width="1366" height="682" />
+    </state>
+    <state width="652" height="153" key="GridCell.Tab.0.center/-1366.23.1366.684/0.23.1366.745@0.23.1366.745" timestamp="1577921931714" />
+    <state width="1304" height="243" key="GridCell.Tab.0.center/-1366.23.1366.745/0.23.1366.680@0.23.1366.680" timestamp="1577898909709" />
+    <state width="652" height="153" key="GridCell.Tab.0.center/-1366.23.1366.745/0.23.1366.682@0.23.1366.682" timestamp="1577924636837" />
+    <state width="652" height="153" key="GridCell.Tab.0.center/-1366.23.1366.745/0.23.1366.689@0.23.1366.689" timestamp="1577918612693" />
+    <state width="652" height="153" key="GridCell.Tab.0.left" timestamp="1577924636837">
+      <screen x="0" y="23" width="1366" height="682" />
+    </state>
+    <state width="652" height="153" key="GridCell.Tab.0.left/-1366.23.1366.684/0.23.1366.745@0.23.1366.745" timestamp="1577921931713" />
+    <state width="1304" height="243" key="GridCell.Tab.0.left/-1366.23.1366.745/0.23.1366.680@0.23.1366.680" timestamp="1577898909709" />
+    <state width="652" height="153" key="GridCell.Tab.0.left/-1366.23.1366.745/0.23.1366.682@0.23.1366.682" timestamp="1577924636837" />
+    <state width="652" height="153" key="GridCell.Tab.0.left/-1366.23.1366.745/0.23.1366.689@0.23.1366.689" timestamp="1577918612693" />
+    <state width="652" height="153" key="GridCell.Tab.0.right" timestamp="1577924636837">
+      <screen x="0" y="23" width="1366" height="682" />
+    </state>
+    <state width="652" height="153" key="GridCell.Tab.0.right/-1366.23.1366.684/0.23.1366.745@0.23.1366.745" timestamp="1577921931714" />
+    <state width="1304" height="243" key="GridCell.Tab.0.right/-1366.23.1366.745/0.23.1366.680@0.23.1366.680" timestamp="1577898909709" />
+    <state width="652" height="153" key="GridCell.Tab.0.right/-1366.23.1366.745/0.23.1366.682@0.23.1366.682" timestamp="1577924636837" />
+    <state width="652" height="153" key="GridCell.Tab.0.right/-1366.23.1366.745/0.23.1366.689@0.23.1366.689" timestamp="1577918612693" />
+    <state width="652" height="190" key="GridCell.Tab.1.bottom" timestamp="1577917728117">
+      <screen x="0" y="23" width="1366" height="689" />
+    </state>
+    <state width="652" height="190" key="GridCell.Tab.1.bottom/-1366.23.1366.745/0.23.1366.689@0.23.1366.689" timestamp="1577917728117" />
+    <state width="652" height="190" key="GridCell.Tab.1.center" timestamp="1577917728117">
+      <screen x="0" y="23" width="1366" height="689" />
+    </state>
+    <state width="652" height="190" key="GridCell.Tab.1.center/-1366.23.1366.745/0.23.1366.689@0.23.1366.689" timestamp="1577917728117" />
+    <state width="652" height="190" key="GridCell.Tab.1.left" timestamp="1577917728117">
+      <screen x="0" y="23" width="1366" height="689" />
+    </state>
+    <state width="652" height="190" key="GridCell.Tab.1.left/-1366.23.1366.745/0.23.1366.689@0.23.1366.689" timestamp="1577917728117" />
+    <state width="652" height="190" key="GridCell.Tab.1.right" timestamp="1577917728117">
+      <screen x="0" y="23" width="1366" height="689" />
+    </state>
+    <state width="652" height="190" key="GridCell.Tab.1.right/-1366.23.1366.745/0.23.1366.689@0.23.1366.689" timestamp="1577917728117" />
+    <state x="-1146" y="213" width="1146" height="439" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577923865632">
+      <screen x="-1366" y="23" width="1366" height="745" />
+    </state>
+    <state x="-1127" y="81" width="1146" height="440" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1366.23.1366.684/0.23.1366.745@0.23.1366.745" timestamp="1577921025491" />
+    <state x="-1146" y="213" width="1146" height="439" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1366.23.1366.745/0.23.1366.682@0.23.1366.682" timestamp="1577923865632" />
+    <state x="358" y="36" width="670" height="676" key="search.everywhere.popup" timestamp="1577916291272">
+      <screen x="0" y="23" width="1366" height="689" />
+    </state>
+    <state x="358" y="36" width="670" height="676" key="search.everywhere.popup/-1366.23.1366.745/0.23.1366.689@0.23.1366.689" timestamp="1577916291272" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/publish.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/subscribe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="195">
-            <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mqtt_python3$publish.coverage" NAME="publish Coverage Results" MODIFIED="1577919656536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mqtt_python3$subscribe.coverage" NAME="subscribe Coverage Results" MODIFIED="1577924477041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mqtt_python3$send.coverage" NAME="send Coverage Results" MODIFIED="1577924544403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
