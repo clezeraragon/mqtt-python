@@ -4,12 +4,12 @@ import paho.mqtt.publish as publish
 class Publish:
 
     def __init__(self, topic, msg, hostname, port, username, password):
-        self._topic = 'topic'
-        self._msg = 'msg'
-        self._hostname = 'hostname'
-        self._port = 'port'
-        self._username = 'username'
-        self._password = 'password'
+        self._topic = topic
+        self._msg = msg
+        self._hostname = hostname
+        self._port = port
+        self._username = username
+        self._password = password
         self.client_id = ""
         self.keepalive = 60
         self.publish = publish
@@ -63,7 +63,7 @@ class Publish:
         self._msg = msg
 
     def send_publish(self):
-        publish.single(self._topic,
+      return  publish.single(self._topic,
                        self.msg,
                        hostname=self._hostname,
                        port=self._port,

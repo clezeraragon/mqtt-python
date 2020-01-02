@@ -8,8 +8,9 @@ def on_connect(client, userdata, flags, rc):
 
 def on_message(client, userdata, msg):
     print(msg.topic+" -  "+str(msg.payload))
-    # print(json.loads(msg.payload))
+    # print(json.loads(str(msg.payload)))
     payload = json.loads(msg.payload)
+    print(payload)
     r = requests.post('http://127.0.0.1:8000/api/mqtt', json=payload)
 
 client = mqtt.Client()
