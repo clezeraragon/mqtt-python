@@ -1,5 +1,5 @@
 import paho.mqtt.publish as publish
-import json
+
 from publish import Publish
 
 message = '{"time": 95456542154512151212, "reactive": 222, "active": 222}'
